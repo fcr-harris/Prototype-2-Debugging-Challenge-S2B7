@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400000}
   - component: {fileID: 9500000}
+  - component: {fileID: 2021417467}
   m_Layer: 0
   m_Name: SimpleFarmer_Daughter_Brown
   m_TagString: Untagged
@@ -55,6 +56,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2021417467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2f81f20698649b8aac7df42511136c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axisName: Horizontal
+  speed: 14
+  xBound: 12
+  projectilePrefab: {fileID: 1898536739738905282, guid: b8b19a45476d54750b0c9c36b08ab993,
+    type: 3}
+  horizontalInput: 0
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
